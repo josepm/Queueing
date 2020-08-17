@@ -30,6 +30,7 @@ from functools import lru_cache
 from capacity_planning.queueing.erlang import erlang_utils as e_ut
 from capacity_planning.utilities import sys_utils as s_ut
 
+
 class Erlang(object):
     def __init__(self, lbda, mu, m, verbose):
         self.lbda = lbda      # arrival rate
